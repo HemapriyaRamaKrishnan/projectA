@@ -1,0 +1,66 @@
+body {
+  background-color: cadetblue;
+}
+
+.container {
+  height: 90px;
+  width: 100%;
+  background-color: cornsilk;
+}
+
+.container ul {
+  float: right;
+  position: relative;
+  bottom: 90px;
+  padding: 10px;
+}
+
+.container ul li {
+  display: inline;
+  padding: 40px;
+  margin-top: 20px;
+  font-size: 23px;
+}
+
+.container ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: darkblue;
+}
+
+.logo {
+  height: 70px;
+  width: 140px;
+  margin: 10px;
+}
+
+.form {
+  height: 40px;
+  width: 250px;
+  position: relative;
+  left: 100px;
+  border: 1px solid grey;
+  border: 1px solid grey;
+  padding-left: 20px;
+}
+
+.button {
+  position: relative;
+  left: 162px;
+  padding: 10px;
+  height: 40px;
+  width: 110px;
+  border: 1px solid grey;
+  border: 1px solid grey;
+  font-size: medium;
+}
+
+.parent {
+  position: relative;
+  left: 279px;
+  top: 70px;
+  height: 290px;
+  width: 400px;
+  padding-left: 20px;
+}
+/*# sourceMappingURL=style.css.map */

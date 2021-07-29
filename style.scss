@@ -1,0 +1,99 @@
+$bcolor:cadetblue;
+  
+body{
+    background-color: $bcolor;
+}
+$cheight:90px;
+$cwidth:100%;
+$bgcolor:cornsilk;
+.container{
+    height:$cheight;
+    width:$cwidth;
+    background-color:$bgcolor;
+}
+$cfloat:right;
+$cposition:relative;
+$cbottom:90px;
+$cpadding-top:10px;
+.container ul{
+    float:$cfloat;
+    position:relative;$position:relative;
+    bottom:$cbottom;
+    padding:$cpadding-top;
+}
+
+$ndisplay:inline;
+$npadding:40px;
+$nmargin-top:20px;
+$nfont-size:23px;
+.container ul li{
+    display:inline;$ndisplay:inline;
+    padding:$npadding;
+    margin-top:$nmargin-top;
+    font-size:$nfont-size;
+}
+$stext-decoration:none;
+$stext-transform:uppercase;
+$scolor:darkblue;
+        .container ul li a{
+            text-decoration:$stext-decoration;
+            text-transform:$stext-transform;
+            color:$scolor;
+        }
+$lheight:70px;
+$lwidth:140px;
+$lmargin:10px;
+.logo{
+    height:$lheight;
+    width:$lwidth;
+    margin:$lmargin;
+}
+$rheight:40px;
+$rwidth:250px;
+$rposition:relative;
+$rleft:100px;
+$rborder:1px solid grey;
+$rborder-radius:11px;
+$rpadding-left:20px;
+
+.form{
+    height:$rheight;
+    width:$rwidth;
+    position:relative;$rposition:relative;
+    left:$rleft;
+    border:$rborder;
+    border:$rborder;
+    padding-left:$rpadding-left;
+}
+$mposition:relative;
+$mleft:162px;
+$mpadding-right:10px;
+$mheight:40px;
+$mwidth:110px;
+$mborder:1px solid grey;
+$mborder-radius:11px;
+$mfont-size:medium;
+.button{
+    position:relative;$mposition:relative;
+    left:$mleft;
+    padding:$mpadding-right;
+    height:$mheight;
+    width:$mwidth;
+    border:$mborder;
+    border:$mborder;
+    font-size:$mfont-size;
+}
+$hposition:relative;
+$hleft:279px;
+$htop:70px;
+$hheight:290px;
+$hwidth:400px;
+$hpadding-left:20px;
+.parent{
+    position:relative;$hposition:relative;
+    left:$hleft;
+    top:$htop;
+    height:$hheight;
+    width:$hwidth;
+    padding-left:$hpadding-left;
+}
